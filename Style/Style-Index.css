@@ -17,7 +17,10 @@ body {
 }
 
 .header {
-    background: #000;
+    background: url(../Image/Luna.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
     display: flex;
     flex-flow: column nowrap;
 }
