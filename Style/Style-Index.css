@@ -1,9 +1,13 @@
 /*Estilos generales*/
 
 * {
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
     box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
 }
 
 body {
@@ -26,31 +30,52 @@ body {
 }
 
 .menu {
-    background: #264e86;
+    background: #rgba(0,0,0,.1);
     display: flex;
     flex-flow: row nowrap;
-    height: 100px;
+    height: 60px;
     align-items: center;
+    border-bottom: 1px solid rgba(255,255,255, .5)
 }
 
 .logo {
-    background: #0074e4;
+    
     flex: 1 1 auto;
-    height: 50px;
 }
+    .logo a{
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .logo a:hover{
+        color: #7B97FF;
+    }
 
 .nav {
-    background: #0074e4;
-    flex: 1 1 auto;
-    height: 50px;
-}
+    flex: 5 1 auto;
 
+}
+    .nav a{
+        color: #fff;
+        text-transform: uppercase;
+        padding: 0 10px;
+        letter-spacing: 1px;
+    }
+    .nav a:hover{
+        color: #7B97FF;
+    }
 .social {
-    background: #0074e4;
     flex: 1 1 auto;
-    height: 50px;
+    display: flex;
 }
-
+    .social a{
+        font-size: 18px;
+        color: #fff;
+        padding: 0 5px;
+    }
+    .social a:hover{
+        color: #7B97FF;
+    }
 .section {
     background: #000;
     display: flex;
