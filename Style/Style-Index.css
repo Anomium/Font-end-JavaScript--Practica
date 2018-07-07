@@ -157,7 +157,7 @@ h4{
     
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1120px) {
     .section {
         flex-direction: column;
     }
@@ -168,6 +168,16 @@ h4{
     .aside {
         display: flex;
         justify-content: center;
+    }
+
+}
+
+@media all and (max-width: 650px){
+    .off{
+        display: none;
+    }
+    .nav a{
+        font-size: 30px;
     }
 }
 
